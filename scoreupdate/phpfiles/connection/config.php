@@ -2,7 +2,7 @@
 
  $dbhost = 'localhost';
  $dbuser = 'root';
- $dbpass = 'ZDcwZGUyMmRlNzAzYmY3ODlhODU5Njg3';
+ $dbpass = '';
  //$dbname = 'noctestingnew';
  $dbname = 'NOC_db';
 
