@@ -5,7 +5,7 @@
 $hostname_local_conn = "127.0.0.1";
 $database_local_conn = "NOC_db";
 $username_local_conn = "nocwebpage";
-$password_local_conn = "nocnptel@iitm";
+$password_local_conn = "";
 
 $dbconn = getDBconnection();
 function getDBconnection()
