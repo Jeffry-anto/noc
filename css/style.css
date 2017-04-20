@@ -1,0 +1,109 @@
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	text-rendering:optimizelegibility;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+<!---nav bar--------->
+
+.form-control
+{
+	width:600px;
+}
+#searchicon
+{
+	height:33px;
+}
+
+<!---------------->
+
+
+#carsol
+{
+	margin-top:60px;
+}
+
+.carousel-caption h3
+{
+	font-size:32px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#000;
+	
+}
+
+#recentnewspanel
+{
+	margin-top:20px;
+	
+}
+
+#recentnewspanel h4
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFF;
+}
+#features
+{
+	text-align:center;
+	
+	
+}
+
+#features img
+{
+	margin:0 0 20;
+}
+
+
+
+
+
+#prof_photo
+{
+	width:150px;
+	float:left;
+	
+	
+}
+
+#prof_about
+{
+	width:700px;
+	float:right;
+	margin-right:200px;
+	text-align:justify;
+	
+}
+
+
+
+
+
+
+footer
+{
+	background:#333;
+	color:#eee;
+	font-size:11px;
+	padding:20px;
+}
+
+
+#agraph
+{
+	width:500px;
+	float:left;
+	padding-left:25px;
+}
+#egraph
+{
+	width:500px;
+	float:right;
+	padding-right:25px;
+}
+

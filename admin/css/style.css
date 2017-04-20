@@ -1,0 +1,82 @@
+.navbar-default {
+    background-color: #3C4073;
+    border-color: #3C4073;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #282C63;
+}
+.glyphicon
+{
+  cursor: pointer;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+canvas {
+  width: 100%;
+  height: auto;
+}
+.logininput {
+    margin-bottom: 10px;
+}
+.logincontainer {
+    margin-top: 10%;
+    padding: 10px;
+    border: 1px solid #B9B6B6;
+    background-color: #FFF;
+}
+.login-wrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #E2E2E2;
+    height: 100%;
+}
+.btn-block {
+  background-color: #3C4073!important;
+  border-color: #3C4073!important;
+}
+.alert-login {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+#navbar {
+    float: right;
+}
+.nav-text {
+  font-weight: bold;
+}
+.dropdown-menu {
+    left: -117px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   margin: 0; 
+}
+/******************************/

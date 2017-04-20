@@ -1,0 +1,213 @@
+#pref-search
+    {
+		
+      box-shadow:0px 0px 5px rgba(210,210,210,210);
+      display:block;
+    }
+	
+	#blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 2s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+	
+</style>
+	  <style>
+		body
+		{
+			
+			color:#545454;
+			font-family: 'Roboto', sans-serif;
+		}
+		
+		#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+/************css for faq page************/
+.faqphead {
+    text-align: center;
+    font-weight: bold;
+    background: #0079a1;
+    padding:0;
+}
+.faqphead h3 {
+    margin:0;
+    padding:10px;
+    background: #0079a1;
+    font-weight: bold;
+    color:#FFF;
+    font-size: 25px;    
+}
+.faqjumbo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    background:#effbff;
+    text-align:justify;
+}
+.faqinfowell {
+    text-align: center;
+    font-size: 20px;
+    background-color: #333333;
+    color:#FFFFFF;
+    font-weight: bold;  
+}
+
+.qhead{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 20px 0px 20px 0px;
+    font-weight:bold;
+
+}
+.faqlist {
+    color: #333;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.faqlist:hover{
+    border-radius: 10px;
+    background-color: #00b4ef;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px;
+}
+.faqactive {
+    border-radius: 10px;
+    background-color:#00b4ef;
+    color: #FFF;
+    font-weight: bold;
+    padding: 10px;
+}
+.qlist {
+    margin-left: 30px;
+    text-align: justify;
+    list-style: none;
+    font-weight: bold;
+}
+.qlistactive,.qlist:hover {
+    background: #a1e8ff;
+    color: #000;
+}
+.falist {
+    margin-right: 5px;
+}
+.link{
+    list-style-type:decimal;
+    font-weight: bold;
+    padding: 30px;
+    line-height: 2;
+}
+.cscroll{
+     max-height: 190px;
+     overflow-y: scroll;
+}
+.npacc{
+    border-color: #FFFFFF;
+}
+.acc_heading{
+    background-color:#FFFFFF;
+    border-color: #FFFFFF;
+}
+/************faq css ends*********/
+/** css added by venkatesh ***/
+.page-header {
+    margin: 0 !important;
+}
+.resultwell {
+    color:#FFF !important;
+    background-color: rgb(37, 137, 167)!important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px!important;
+    margin-bottom: 5px !important;
+}
+.resitm {
+    font-weight: bold!important;
+}
+.restext {
+    padding: 10px;
+    color: #076682;
+    font-family: cursive;
+}
+/*****************/
+		

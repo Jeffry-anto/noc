@@ -1,0 +1,33 @@
+
+
+#nocadmin_form
+{
+  
+  padding: 25px;
+  
+}
+#top_margin
+{
+  margin-top: 150px;
+}
+#indexpanel
+{
+  
+  box-shadow: 10px 10px 10px rgba(0,0,0,.5), 0 0 10px rgba(255,255,255,.5) inset;
+  display: inline-block;
+  background-color:#34495e;
+  color: #fff;
+}
+
+#indexalert
+{
+  margin-top: 15px;
+}
+.input-group
+{
+  padding: 5px;
+}
+input
+{
+  border-radius: none;
+}
